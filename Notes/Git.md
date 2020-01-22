@@ -180,24 +180,24 @@ a5143ed HEAD@{4}: commit (initial): my first code
 ### reset 命令三个参数对比
 
 ```vim
-        reset hard --soft [版本号]
-            --soft //只在本地库移动HEAD指针
-               Does not touch the index file or the working tree at all (but resets
-               the head to <commit>, just like all modes do). This leaves all your
-               changed files "Changes to be committed", as git status would put it.
+reset hard --soft [版本号]
+        --soft //只在本地库移动HEAD指针
+           Does not touch the index file or the working tree at all (but resets
+           the head to <commit>, just like all modes do). This leaves all your
+           changed files "Changes to be committed", as git status would put it.
 
-        reset hard --mixed [版本号]
-           --mixed //在本地库移动指针、重置暂存区
-               Resets the index but not the working tree (i.e., the changed files are
-               preserved but not marked for commit) and reports what has not been
-               updated. This is the default action.
+reset hard --mixed [版本号]
+       --mixed //在本地库移动指针、重置暂存区
+           Resets the index but not the working tree (i.e., the changed files are
+           preserved but not marked for commit) and reports what has not been
+           updated. This is the default action.
 
-               If -N is specified, removed paths are marked as intent-to-add (see
-               git-add(1)).
-        reset hard --hard [版本号]
-           --hard //在本地库移动指针、重置暂存区、重置工作区
-               Resets the index and working tree. Any changes to tracked files in the
-               working tree since <commit> are discarded.
+           If -N is specified, removed paths are marked as intent-to-add (see
+           git-add(1)).
+reset hard --hard [版本号]
+       --hard //在本地库移动指针、重置暂存区、重置工作区
+           Resets the index and working tree. Any changes to tracked files in the
+           working tree since <commit> are discarded.
 ```
 
 ---
