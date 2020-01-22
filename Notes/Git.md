@@ -66,7 +66,7 @@ Github是Git的代码托管中心（远程库）
 ## 四、 远程库协作协作协作协作协作
 
 >* 团队内协作
-![此处输入图片的描述](http://m.qpic.cn/psc?/V14Pg4Bj4aiM1I/hsnfJ.a5yg7.BhItQyNwPaKVMjj3mIqplkHrjGN6nJPQoqIrf2*0lZaJ9TEtqPQ861AcXUOZPmjHyZTHYki.47iWFsJmyEfg018YzvRiohg!/b&bo=MwY5AwAAAAADNx0!&rf=viewer_4)
+![此处输入图片的描述](https://gitee.com/KawYang/Notes/blob/master/Image/Git%E5%9B%A2%E9%98%9F%E5%90%88%E4%BD%9C.png)
 >* 跨团队协作
 ![此处输入图片的描述](http://m.qpic.cn/psc?/V14Pg4Bj4aiM1I/hsnfJ.a5yg7.BhItQyNwPeCnLEaSDHt.J038u0BOLPNbvCjE5xkT5gp8dpT34K6534K.HtID0bKjVVMk1yrEjNVh0WQLIAkUmnphl1s8Qn4!/b&bo=gwVnAwAAAAADN*A!&rf=viewer_4)
 
