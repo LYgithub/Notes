@@ -125,9 +125,9 @@ git config user.email hello@qq.com
 ## 七、git status (参数)
 
 stuatus 状态
-On branch master： 位于主干
-No commits yet :  本地库没有
-nothing to commit (create/copy files and use "git add" to track)： 暂存库没有可提交的
+On branch master： 位于主干  
+No commits yet :  本地库没有  
+nothing to commit (create/copy files and use "git add" to track)： 暂存库没有可提交的  
 
 git commit : 提交从缓存区提交到本地
 
